@@ -9,5 +9,5 @@ export default function sum(m, n) {
         return 0;
     }
 
-    return Number(m) + Number(n);
+    return parseInt(m, 10) + parseInt(n, 10);
 }
